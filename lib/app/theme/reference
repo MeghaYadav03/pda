@@ -1,0 +1,44 @@
+══════════════════ SPACING ══════════════════
+
+4   → Tiny gap
+8   → Between icon & text
+16  → Small padding
+20  → Between form fields
+24  → Screen padding
+32  → Between sections
+40  → Large section spacing
+56  → Hero spacing
+
+══════════════════ RADIUS ═══════════════════
+
+6   → Chips
+10  → Small buttons
+16  → Cards
+20  → TextFields / Primary Buttons
+28  → Bottom Sheets
+100 → Pills / Capsules
+
+══════════════════ FONT ═════════════════════
+
+12 → Caption
+14 → Secondary text
+16 → Body
+20 → Section heading
+24 → Card heading
+32 → Screen heading
+
+══════════════════ HEIGHTS ══════════════════
+
+54 → Buttons
+56 → TextFields
+60 → List Tiles
+72 → App Bars (custom)
+130 → KPI Cards
+220 → Login Illustration
+
+══════════════════ ICONS ════════════════════
+
+18 → Inline icons
+24 → Standard icons
+32 → Large icons
+48 → Hero icons
