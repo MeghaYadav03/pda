@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:pda_app/app/routes/app_routes.dart';
-import 'package:pda_app/app/routes/route_names.dart';
-import 'package:pda_app/modules/login/widgets/login_form.dart';
+import 'package:pda/modules/login/login_screen.dart';
+
 void main() {
   runApp(const MyApp());
 }
@@ -9,18 +8,17 @@ void main() {
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
-  // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      initialRoute: RouteNames.login,
-      routes: AppRoutes.routes,
+      title: 'PDA',
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(
           seedColor: Colors.deepPurple,
         ),
       ),
+      home: const LoginScreen(),
     );
   }
 }

@@ -1,0 +1,41 @@
+[
+  {
+    "salesmanId": "100001",
+    "dashboard": {
+      "date": "2026-07-18",
+
+      "target": {
+        "dailyTargetAmount": 50000,
+        "achievedAmount": 18750,
+        "achievementPercentage": 37.5
+      },
+
+      "orders": {
+        "totalOrders": 14,
+        "productiveCalls": 12,
+        "nonProductiveCalls": 5
+      },
+
+      "retailers": {
+        "planned": 30,
+        "visited": 17,
+        "remaining": 13
+      },
+
+      "collection": {
+        "target": 25000,
+        "collected": 11000
+      },
+
+      "stock": {
+        "skuSold": 28,
+        "totalQuantity": 315
+      },
+
+      "attendance": {
+        "status": "Present",
+        "checkIn": "09:04 AM"
+      }
+    }
+  }
+]

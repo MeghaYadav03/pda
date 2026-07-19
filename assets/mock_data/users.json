@@ -1,0 +1,22 @@
+[
+  {
+    "salesmanId": "100001",
+    "password": "1234",
+    "name": "Megha Yadav",
+    "employeeCode": "EMP100001",
+    "mobileNumber": "9876543210",
+    "designation": "Sales Representative",
+    "headquarter": "Mumbai",
+    "isActive": true
+  },
+  {
+    "salesmanId": "100002",
+    "password": "1234",
+    "name": "Rahul Sharma",
+    "employeeCode": "EMP100002",
+    "mobileNumber": "9876543211",
+    "designation": "Sales Representative",
+    "headquarter": "Pune",
+    "isActive": true
+  }
+]
