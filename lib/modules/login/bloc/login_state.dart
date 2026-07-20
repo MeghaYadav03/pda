@@ -10,7 +10,6 @@ class LoginSuccess extends LoginState {
   UserModel user;
   LoginSuccess({required this.user});
 }
-
 class LoginFailure extends LoginState {
   String errorMessage;
 

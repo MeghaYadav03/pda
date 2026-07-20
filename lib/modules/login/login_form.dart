@@ -43,6 +43,7 @@ class _LoginFormState extends State<LoginForm> {
       key: _formKey,
       child: Column(
         children: [
+          const SizedBox(height: 100),
           TextFormField(
             controller: salesmanIdController,
             decoration: const InputDecoration(
@@ -101,10 +102,14 @@ class _LoginFormState extends State<LoginForm> {
                 onPressed: login,
                 child: const Text("LOGIN"),
               ));}
-        },)
+},)
       )
         ],
       ),
     );
   }
 }
+
+
+
+

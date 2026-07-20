@@ -1,5 +1,4 @@
 import 'dart:convert';
-
 import 'package:collection/collection.dart';
 import 'package:flutter/services.dart';
 import 'package:pda/common/models/user_model.dart';
@@ -40,5 +39,4 @@ class LoginService {
        return LoginResult(success: true,user: user);
      }
   }
-
 }
